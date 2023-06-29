@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 10px;
+}
+
+mat-card {
+  height: 600px;
+}
+
+[mat-card-image] {
+  height: 400px;
+}
+
+mat-card-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+}
+
+mat-card-content {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: brown;
+}
+
+mat-card-actions {
+  margin-top: 10px;
+}
+
+button[mat-button] {
+  background: linear-gradient(89.8deg, rgb(39, 115, 255) 4.3%, rgb(62, 211, 232) 101.4%);
+  width: 100%;
+  margin: 2px;
+  color: white;
+  cursor: pointer;
+}

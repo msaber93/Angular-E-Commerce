@@ -1,13 +1,26 @@
 <mat-drawer-container class="example-container">
-    <mat-drawer-content>
-      <mat-form-field>
-        <mat-label>Category</mat-label>
-        <mat-select #mode value="side">
-          <mat-option value="side">Mobile</mat-option>
-          <mat-option value="over">Laptop</mat-option>
-          <mat-option value="push">TV</mat-option>
-        </mat-select>
-      </mat-form-field>
-    </mat-drawer-content>
+  <mat-drawer-content>
+    <mat-form-field>
+      <mat-label>Category</mat-label>
+      <mat-select #mode value="side">
+        <mat-option value="side">Mobile</mat-option>
+        <mat-option value="over">TV </mat-option>
+        <mat-option value="push">Laptop</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Order</mat-label>
+      <mat-select #mode value="side">
+        <mat-option value="side">A-Z</mat-option>
+        <mat-option value="side">Z-A</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Price</mat-label>
+      <mat-select #mode value="side">
+        <mat-option value="side">8000 to 15000</mat-option>
+        <mat-option value="side">15000 to 3000</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </mat-drawer-content>
 </mat-drawer-container>
-

@@ -1,6 +1,4 @@
-
-
-.mat-drawer-content {
-  display: flex;
+mat-drawer-content {
+  display:flex;
   justify-content: center;
 }

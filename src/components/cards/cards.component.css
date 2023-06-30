@@ -8,11 +8,14 @@
 }
 
 mat-card {
-  height: 600px;
+  height: 400px;
+  width: 350px;
 }
 
 [mat-card-image] {
-  height: 400px;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
 }
 
 mat-card-header {
